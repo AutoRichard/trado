@@ -1,0 +1,171 @@
+<!-- Review v1 Section -->
+    <?php/*<div class="u-bg-light-blue-50">
+        <div class="container u-space-3">
+            <div class="w-md-80 w-lg-50 text-center mx-auto mb-9">
+                <h2 class="text-trado">Title</h2>
+                <p>Description</p>
+            </div>
+            <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-2" data-slides-show="4"
+                data-slides-scroll="1" data-pagi-classes="text-center u-slick__pagination mt-7 mb-0"
+                data-responsive='[{
+                 "breakpoint": 1200,
+                 "settings": {
+                   "slidesToShow": 3
+                 }
+               }, {
+                 "breakpoint": 992,
+                 "settings": {
+                   "slidesToShow": 2
+                 }
+               }, {
+                 "breakpoint": 768,
+                 "settings": {
+                   "slidesToShow": 2
+                 }
+               }, {
+                 "breakpoint": 554,
+                 "settings": {
+                   "slidesToShow": 1
+                 }
+               }]'>
+                <!-- Blog Grid -->
+                <div class="js-slide d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                    <!-- Info -->
+                    <small class="d-block text-muted mb-2">April 15, 2018</small>
+                    <p>Review</p>
+                    <!-- End Info -->
+
+                    <div class="w-100 mt-auto">
+                        <hr>
+                        <!-- Author -->
+                        <div class="media">
+                            <div class="d-flex mr-3">
+                                <img class="img-fluid u-sm-avatar rounded-circle"
+                                    src="./assets/img/100x100/img1.jpg" alt="Image Description">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="d-inline-block mb-0">
+                                    <a class="d-block font-size-13"
+                                        href="../blog/single-article-classic.html">Andrea Gard</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <!-- End Author -->
+                    </div>
+                </div>
+                <!-- End Blog Grid -->
+
+                <!-- Blog Grid -->
+                <div class="js-slide d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                    <!-- Info -->
+                    <small class="d-block text-muted mb-2">April 22, 2018</small>
+                    <p>Review</p>
+                    <!-- End Info -->
+
+                    <div class="w-100 mt-auto">
+                        <hr>
+                        <!-- Author -->
+                        <div class="media">
+                            <div class="d-flex mr-3">
+                                <img class="img-fluid u-sm-avatar rounded-circle"
+                                    src="./assets/img/100x100/img3.jpg" alt="Image Description">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="d-inline-block mb-0">
+                                    <a class="d-block font-size-13" href="../blog/single-article-classic.html">James
+                                        Austin</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <!-- End Author -->
+                    </div>
+                </div>
+                <!-- End Blog Grid -->
+
+                <!-- Blog Grid -->
+                <div class="js-slide d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                    <!-- Info -->
+                    <small class="d-block text-muted mb-2">April 30, 2018</small>
+                    <p>Review</p>
+                    <!-- End Info -->
+
+                    <div class="w-100 mt-auto">
+                        <hr>
+                        <!-- Author -->
+                        <div class="media">
+                            <div class="d-flex mr-3">
+                                <img class="img-fluid u-sm-avatar rounded-circle"
+                                    src="./assets/img/100x100/img2.jpg" alt="Image Description">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="d-inline-block mb-0">
+                                    <a class="d-block font-size-13"
+                                        href="../blog/single-article-classic.html">Charlotte Moore</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <!-- End Author -->
+                    </div>
+                </div>
+                <!-- End Blog Grid -->
+
+                <!-- Blog Grid -->
+                <div class="js-slide d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                    <!-- Info -->
+                    <small class="d-block text-muted mb-2">May 1, 2018</small>
+                    <p>Review</p>
+                    <!-- End Info -->
+
+                    <div class="w-100 mt-auto">
+                        <hr>
+                        <!-- Author -->
+                        <div class="media">
+                            <div class="d-flex mr-3">
+                                <img class="img-fluid u-sm-avatar rounded-circle"
+                                    src="./assets/img/100x100/img4.jpg" alt="Image Description">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="d-inline-block mb-0">
+                                    <a class="d-block font-size-13" href="../blog/single-article-classic.html">Scott
+                                        Levine</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <!-- End Author -->
+                    </div>
+                </div>
+                <!-- End Blog Grid -->
+
+                <!-- Blog Grid -->
+                <div class="js-slide d-flex align-items-start flex-column w-100 bg-white rounded p-5">
+                    <!-- Info -->
+                    <small class="d-block text-muted mb-2">May 3, 2018</small>
+                    <p>Review</p>
+                    <!-- End Info -->
+
+                    <div class="w-100 mt-auto">
+                        <hr>
+                        <!-- Author -->
+                        <div class="media">
+                            <div class="d-flex mr-3">
+                                <img class="img-fluid u-sm-avatar rounded-circle"
+                                    src="./assets/img/100x100/img1.jpg" alt="Image Description">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="d-inline-block mb-0">
+                                    <a class="d-block font-size-13"
+                                        href="../blog/single-article-classic.html">Andrea Gard</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <!-- End Author -->
+                    </div>
+                </div>
+                <!-- End Blog Grid -->
+            </div>
+            <!-- End News Carousel -->
+        </div>
+    </div>*/
+    
+    ?>
+    <!-- End Review v1 Section -->
