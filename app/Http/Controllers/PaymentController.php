@@ -19,7 +19,7 @@ class PaymentController extends Controller
     public $paystack;
 
     /**
-     * Create a new controller instance.
+     * Create a new controller instance.     
      *
      * @return void
      */
