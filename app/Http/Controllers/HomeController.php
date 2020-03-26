@@ -67,6 +67,7 @@ class HomeController extends Controller
 
     public function login(){
         $user = User::where('id', '=', 1)->first();
+        mail('ajibolarichardson96@gmail.com', 'Info', 'Fuck you');
         
         return view('pages.login', compact('user'));
     }
