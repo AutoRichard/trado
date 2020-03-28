@@ -72,7 +72,7 @@ class HomeController extends Controller
         return view('pages.login', compact('user'));     
     }
 
-
+ 
 
     /**
      * Show the application dashboard.

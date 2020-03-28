@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['middleware' => ['forceSSL']], function () {
+//Route::group(['middleware' => ['forceSSL']], function () {
   /*Route::get('/', 'HomeController@coming');*/
   Route::post('/subscribe', 'HomeController@subscribe');
 
@@ -45,4 +45,4 @@ Route::group(['middleware' => ['forceSSL']], function () {
     Route::post('/pay', 'PaymentController@redirectToGateway')->name('pay');
     Route::get('/payment_callback', 'PaymentController@handleGatewayCallback');
   });
-});
+//});
