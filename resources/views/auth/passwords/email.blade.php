@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+eoiewugyfdrs
 
 <!-- Content Section -->
 <div class="bg-light">
