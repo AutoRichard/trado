@@ -9,7 +9,7 @@ data-header-fix-moment="500" data-header-fix-effect="slide"><meta http-equiv="Co
             <div class="d-flex col-lg-2 justify-content-between pl-0">
                 <!-- Logo -->
                 <a class="navbar-brand u-header__navbar-brand" href="/" aria-label="Front">
-                    <img src="{{URL::asset('./img/trado.png')}}" class="logo" alt="Logo">
+                    <img src="https://tradoapp.herokuapp.com/img/trado.png" class="logo" alt="Logo">
                 </a>
                 <!-- End Logo -->
 

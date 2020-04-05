@@ -5,7 +5,7 @@
             <div class="d-flex align-self-start flex-column h-100">
                 <!-- Logo -->
                 <a class="mb-1" href="/" aria-label="Front">
-                    <img src="{{URL::asset('./img/trado.png')}}" class="logo" alt="Logo" style="width: 120px;">
+                    <img src="https://tradoapp.herokuapp.com/img/trado.png" class="logo" alt="Logo" style="width: 120px;">
                 </a>
                 <span class="small text-muted">Improving Farming, Improving Life</span>
                 <!-- End Logo -->
@@ -67,7 +67,7 @@
             <h1 class="h1 font-weight-semi-bold mb-1"><span class="u-icon u-icon--lg u-icon-primary--air rounded-circle">
               <span class="fa fa-shield-alt u-icon__inner"></span>
             </span></span></h1>
-            <img src="{{URL::asset('./img/paystack.png')}}" class="logo" alt="Logo" style="width: auto; height: auto;">
+            <img src="https://tradoapp.herokuapp.com/img/paystack.png" class="logo" alt="Logo" style="width: auto; height: auto;">
             
           </div>
         <div class="col-6 col-md-3 col-lg-3">
