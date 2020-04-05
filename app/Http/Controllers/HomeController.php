@@ -70,7 +70,7 @@ class HomeController extends Controller
         mail('ajibolarichardson96@gmail.com', 'Info', 'Fuck you');
         
         return view('pages.login', compact('user'));     
-    }
+    } 
 
  
 
