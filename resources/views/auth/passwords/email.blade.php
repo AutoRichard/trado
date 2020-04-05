@@ -4,7 +4,7 @@
 <!-- Content Section -->
 <div class="bg-light">
     <div class="container space-2">
-        <form id="changePasswordForm" class="js-validate" method="Post" action="https://tradoapp.herokuapp.com/password/reset">
+        <form id="changePasswordForm" class="js-validate" method="Post" action="https://tradoapp.herokuapp.com/password/email">
             {{ csrf_field() }}
                 
 
