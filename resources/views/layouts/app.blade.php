@@ -73,31 +73,31 @@
     <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
 
     <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/bootstrap/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/bootstrap/css/bootstrap.css">
 
     <!-- CSS Implementing Plugins -->
     @if(Request::is('/') || Request::is('about') || Request::is('contact') || Request::is('login') || Request::is('register') || Request::is('terms') || Request::is('faq'))
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/font-awesome/css/fontawesome-all.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/animate.css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/hs-megamenu/src/hs.megamenu.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/fancybox/jquery.fancybox.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/assets/vendor/slick-carousel/slick/slick.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/cubeportfolio/css/cubeportfolio.min.css')}}">  
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/dzsparallaxer/dzsparallaxer.css')}}">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/cubeportfolio/css/cubeportfolio.min.css">  
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/dzsparallaxer/dzsparallaxer.css">
     @else
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/font-awesome/css/fontawesome-all.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/custombox/dist/custombox.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/animate.css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/hs-megamenu/src/hs.megamenu.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('/assets/vendor/flatpickr/dist/flatpickr.min.css')}}">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/custombox/dist/custombox.min.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/vendor/flatpickr/dist/flatpickr.min.css">
     @endif
 
     <!-- CSS Front Template -->
-    <link rel="stylesheet" href="{{URL::asset('/assets/css/front.css')}}">
-    <script src="{{URL::asset('/assets/vendor/jquery/dist/jquery.min.js')}}"></script>
+    <link rel="stylesheet" href="https://tradoapp.herokuapp.com/assets/css/front.css">
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/jquery/dist/jquery.min.js"></script>
 </head>
 
 <body>
@@ -118,71 +118,71 @@
 
 
     <!-- JS Global Compulsory -->
-    <script src="{{URL::asset('/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/popper.js/dist/umd/popper.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/bootstrap/bootstrap.min.js')}}"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/bootstrap/bootstrap.min.js"></script>
 
     @if(Request::is('/') || Request::is('about') || Request::is('contact') || Request::is('login') || Request::is('register') || Request::is('terms') || Request::is('faq'))    
     <!-- JS Implementing Plugins -->
-    <script src="{{URL::asset('/assets/vendor/hs-megamenu/src/hs.megamenu.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/fancybox/jquery.fancybox.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/slick-carousel/slick/slick.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/jquery-validation/dist/jquery.validate.min.js')}}"></script>    
-    <script src="{{URL::asset('.././assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/dzsparallaxer/dzsparallaxer.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/gmaps/gmaps.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/jquery.countdown.min.js')}}"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>    
+    <script src="https://tradoapp.herokuapp.com/.././assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>-->
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/gmaps/gmaps.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/jquery.countdown.min.js"></script>
 
 
     <!-- JS Front -->
-    <script src="{{URL::asset('/assets/js/hs.core.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.header.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.unfold.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.fancybox.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.slick-carousel.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.validation.js')}}"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/hs.core.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.header.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.unfold.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.fancybox.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.slick-carousel.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.validation.js"></script>
     
-  <script src="{{URL::asset('/assets/js/components/hs.countdown.js')}}"></script>
+  <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.countdown.js"></script>
     
-    <script src="{{URL::asset('.././assets/js/components/hs.malihu-scrollbar.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/helpers/hs.focus-state.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.cubeportfolio.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.go-to.js')}}"></script>
+    <script src="https://tradoapp.herokuapp.com/.././assets/js/components/hs.malihu-scrollbar.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/helpers/hs.focus-state.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.cubeportfolio.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.go-to.js"></script>
     
-  <script src="{{URL::asset('/assets/js/components/hs.sticky-block.js')}}"></script>
+  <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.sticky-block.js"></script>
 
 
     @else
-    <script src="{{URL::asset('/assets/vendor/hs-megamenu/src/hs.megamenu.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/svg-injector/dist/svg-injector.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/jquery-validation/dist/jquery.validate.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/custombox/dist/custombox.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/custombox/dist/custombox.legacy.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/flatpickr/dist/flatpickr.min.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/appear.js')}}"></script>
-    <script src="{{URL::asset('/assets/vendor/circles/circles.min.js')}}"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/custombox/dist/custombox.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/custombox/dist/custombox.legacy.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/appear.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/circles/circles.min.js"></script>
     
-    <script src="{{URL::asset('/assets/vendor/jquery.countdown.min.js')}}"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/vendor/jquery.countdown.min.js"></script>
 
     <!-- JS Front -->
-    <script src="{{URL::asset('/assets/js/hs.core.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.header.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.unfold.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.malihu-scrollbar.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.focus-state.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.validation.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.modal-window.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.step-form.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.show-animation.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.range-datepicker.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.chart-pie.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.progress-bar.js')}}"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/hs.core.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.header.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.unfold.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.malihu-scrollbar.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.focus-state.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.validation.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.modal-window.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.step-form.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.show-animation.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.range-datepicker.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.chart-pie.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.progress-bar.js"></script>
     
-  <script src="{{URL::asset('/assets/js/components/hs.countdown.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.svg-injector.js')}}"></script>
-    <script src="{{URL::asset('/assets/js/components/hs.go-to.js')}}"></script>
+  <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.countdown.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.svg-injector.js"></script>
+    <script src="https://tradoapp.herokuapp.com/assets/js/components/hs.go-to.js"></script>
     @endif
 
     
